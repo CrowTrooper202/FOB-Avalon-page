@@ -35,6 +35,9 @@ const equipSchema = new Schema({
     category:{
         type:String,
         required:true
+    },
+    specialNotes:{
+        type:String
     }
 
 
